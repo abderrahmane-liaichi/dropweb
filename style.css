@@ -1823,7 +1823,7 @@ strong{
 
 
 
-@media (min-width: 219px) and (max-width: 719px){
+@media (max-width: 390px){
   .top-head{
     width: 100%;
     /* height: 45px; */
