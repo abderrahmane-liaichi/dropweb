@@ -1,17 +1,21 @@
-const video = document.getElementById('mainVideo');
-const overlay = document.getElementById('playOverlay');
+// const video = document.getElementById('mainVideo');
+// const overlay = document.getElementById('playOverlay');
 
-overlay.addEventListener('click', () => {
-  video.play();
-  overlay.classList.add('hidden');
-});
+// overlay.addEventListener('click', () => {
+//   video.play();
+//   overlay.classList.add('hidden');
+// });
 
-video.addEventListener('pause', () => {
-  overlay.classList.remove('hidden');
-});
+// video.addEventListener('pause', () => {
+//   overlay.classList.remove('hidden');
+// });
 
-video.addEventListener('ended', () => {
-  overlay.classList.remove('hidden');
+// video.addEventListener('ended', () => {
+//   overlay.classList.remove('hidden');
+// });
+playOverlay.addEventListener("click", () => {
+  mainVideo.src += "&autoplay=1";
+  playOverlay.style.display = "none";
 });
 
 // ----------------------------------
