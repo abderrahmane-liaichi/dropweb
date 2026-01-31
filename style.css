@@ -1919,6 +1919,7 @@ strong{
   }
   .head-content .header-content h1{
     /* margin-top: 100px; */
+    object-fit: cover;
     font-size: 36px;
     font-weight: 800;
     line-height: 55px;
