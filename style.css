@@ -207,7 +207,7 @@ ul{
   color: white;
 }
 
-video {
+video{
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -216,7 +216,16 @@ video {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
-
+iframe{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 380px;
+}
 
 
 .overlay-play {
@@ -1954,7 +1963,7 @@ strong{
   padding: 0px 5px;
 }
 
-video {
+video, iframe {
   width: 100%;
   height: 230px;
   object-fit: cover;
