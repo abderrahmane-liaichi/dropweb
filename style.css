@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+html{
+  scroll-behavior: smooth;
+}
 :root{
   /* Colors */
   --main-Color: #225aea;
@@ -1695,37 +1698,6 @@ strong{
 
 @media (max-width: 767px) {
   :root {
-    --closed: 4rem;
-    --open: 22rem;
-  }
-  .head {
-    padding: 50px 20px 30px;
-  }
-  .track {
-    flex-direction: column;
-    scroll-snap-type: y mandatory;
-    align-items: center;
-    justify-content: flex-start;
-    padding-bottom: 0;
-  }
-  .project-card {
-    height: 20rem;
-  }
-  .project-card__title {
-    font-size: 1.1rem;
-    writing-mode: horizontal-tb;
-    transform: none;
-    text-align: center;
-    padding-inline: 0.3rem;
-  }
-  .nav-btn {
-    width: 2rem;
-    height: 2rem;
-    font-size: 1.2rem;
-  }
-}
-@media (max-width: 767px) {
-  :root {
     --closed: 100%;
     --open: 100%;
     --gap: 0.8rem;
@@ -1833,7 +1805,7 @@ strong{
 
 
 
-@media (max-width: 430px){
+@media (max-width: 768px){
   .top-head{
     width: 100%;
     /* height: 45px; */
@@ -2031,6 +2003,35 @@ video, iframe {
 .card{
   padding-bottom: 10px;
 }
+  :root {
+    --closed: 4rem;
+    --open: 22rem;
+  }
+  .head {
+    padding: 50px 20px 30px;
+  }
+  .track {
+    flex-direction: column;
+    scroll-snap-type: y mandatory;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 0;
+  }
+  .project-card {
+    height: 20rem;
+  }
+  .project-card__title {
+    font-size: 1.1rem;
+    writing-mode: horizontal-tb;
+    transform: none;
+    text-align: center;
+    padding-inline: 0.3rem;
+  }
+  .nav-btn {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.2rem;
+  }
 
 }
 
