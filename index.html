@@ -6,7 +6,7 @@
     <title>Dropweb.io | The Ultimate Marketplace for Shopify Themes</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" href="https://res.cloudinary.com/dfzu9bhdd/image/upload/v1769698696/_Dropweb_logo_teo5g0.png" sizes="64x64" type="image/png">
+    <link rel="icon" href="images/_Dropweb logo.png" sizes="64x64" type="image/png">
 
 </head>
 <body>
@@ -44,7 +44,7 @@
     </div>
     <div class="content">
       <div class="left-side">
-        <div class="content-url">
+        <!-- <div class="content-url">
           <div class="video-banner">
             <i class="fas fa-volume-up"></i> Hit Play (Sound On)
           </div>            
@@ -53,6 +53,24 @@
             Your browser does not support the video tag.
           </video>
           <div class="overlay-play" id="playOverlay"><i class="fa-solid fa-play"></i></div>
+        </div> -->
+        <div class="content-url">
+         <div class="video-banner">
+             <i class="fas fa-volume-up"></i> Hit Play (Sound On)
+           </div>
+         
+           <!-- REPLACED video with iframe, ID kept -->
+           <iframe
+             id="mainVideo"
+             src="https://www.youtube.com/embed/xwvBim9AANg?enablejsapi=1"
+             frameborder="0"
+             allow="autoplay; encrypted-media; picture-in-picture"
+             allowfullscreen>
+           </iframe>
+         
+           <div class="overlay-play" id="playOverlay">
+             <i class="fa-solid fa-play"></i>
+           </div>
         </div>
         <div class="members-ship">
           <img src="https://res.cloudinary.com/dfzu9bhdd/image/upload/v1769698312/members_zkmwxi.png">
@@ -937,5 +955,3 @@
   
 </body>
 </html> 
-
-
